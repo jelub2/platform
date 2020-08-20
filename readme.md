@@ -17,6 +17,10 @@ Een docente op een middelbare school werkt vanwege coronamaatregelen thuis. Voor
 -	Arduino IDE
 -	MongoDB Database
 
+## Product video
+Op vimeo staat een video met de werking van dit project.
+[Product Video](https://vimeo.com/449714022)
+
 ## Installatie instructies
 ### NodeJS Server & MongoDB Database
 Voor dit project wordt een NodeJS server gebruikt die via een websocket informatie ontvangt van het embedded device. Deze server ontvangt in dit geval een getal en slaat deze op in een MongoDB database. Dit is een NoSQL database.
@@ -54,8 +58,6 @@ Voor de Arduino code zijn verschillende libraries gebruikt. Dit zijn de volgende
 + ESP8266WiFi: Voor het gebruik van Wi-Fi op de ESP8266 module.
 + WebSocketClient: Client afhandeling voor de websocket. Dit geeft de mogelijkheid om informatie te ontvangen en te zenden naar de websocket server.
 + Adafruit_NeoPixel: Deze library wordt gebruikt voor het aansturen van de ledstrip die verbonden is aan de NodeMCU.
-A short example/tutorial
-Video:
 
 ## Code documentatie
 In dit hoofdstuk beschrijf ik de code van de belangrijkste scripts. De arduino code en de NodeJS server code.
