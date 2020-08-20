@@ -39,9 +39,9 @@ Om het wiel niet opnieuw uit te vinden is in de NodeJS server gebruik gemaakt va
 Nu de server draait gaan we verder met het embedded device. In dit project wordt gebruik gemaakt van een NodeMCU met geintegreerde Wi-Fi chip. Deze kan ook worden vervangen door een andere module met een wi-fi module. Verander dan ook de pin mapping in de arduino code.
 
 #### Stap 1 Bevestig de Hardware aan de NodeMCU(3)
-+ 5) Neopixel: D2 3v en Ground.
-+ 4) Analoge sensor: A0 en 3v
-+ 6) Capacative touch sensor: D1 3v en Ground.
++ (5) Neopixel: D2 3v en Ground.
++ (4) Analoge sensor: A0 en 3v
++ (6) Capacative touch sensor: D1 3v en Ground.
 
 ![schematische weergave systeem](https://github.com/jelub2/platform/blob/master/assets/Schema%20Platform.png)
 
