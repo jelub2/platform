@@ -56,11 +56,14 @@ A short example/tutorial
 Video:
 
 ## Code documentatie
+In dit hoofdstuk beschrijf ik de code van de belangrijkste scripts. De arduino code en de NodeJS server code.
+Ik heb gepoogd om in de comments in de code een zo duidelijk mogelijke omschrijving te geven van de functie van de regels. Daarnaast boven ieder stuk k code een kleine uitleg wat onderstaande code doet.
+
 ### Arduino Code:
 In de arduino code benoemen we uitereaard eerst de gebruikte bronnen voor de code. Vervolgens gebruiken we de benodigde libaries en definieren we de pinnummers voor de hardware.
 
 ```C
-/Sources:
+/*Sources:
   Websocket:
   Esp8266_Websocket.ino
   Capatative touch sensor:
@@ -68,7 +71,7 @@ In de arduino code benoemen we uitereaard eerst de gebruikte bronnen voor de cod
   NeoPixel Ring simple sketch (c) 2013 Shae Erisson
   Released under the GPLv3 license to match the rest of the
   Adafruit NeoPixel library
-/
+*/
 
 #include <ESP8266WiFi.h>
 #include <WebSocketClient.h>
